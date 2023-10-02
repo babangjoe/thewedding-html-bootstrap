@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- simply count down -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css"/>
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+        <h1>Nama Kedua Mempelai</h1>
+        <p>Akan melangsungkan pernikahan dalam:</p>
+        <div class="simply-countdown"></div>
+        <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
+      </main>
+    </section>
+
+    <!-- Navbar Offcanvas -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">The Wedding</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">The Wedding</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#journey">Our Journey</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada tanggal 30 September 2023 di Tangerang, Banten</h3>
+            <p>Oleh karena itu, dengan segala hormat kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan kami.</p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Ikhwan Fulan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quasi rerum voluptates perferendis, consequatur hic.</p>
+                <p>Putra dari Bapak Abah <br> dan <br> Ibu Umma</p>
+              </div>
+              <div class="col-4">
+                <img src="img/man-wedding.jpg" alt="Ikhwan Fulan" class="img-responsive rounded-circle">
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/woman-wedding.jpg" alt="Akhwat Fulana" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>Akhwat Fulana</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quasi rerum voluptates perferendis, consequatur hic.</p>
+                <p>Putra dari Bapak Abi <br> dan <br> Ibu Umi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Islamic Center Baiturrachmi Kota Tangsel
+                <br>Jl. Hos Tjokroaminoto, Rw. Mekar Jaya, Kec. Serpong, Kota Tangerang Selatan, Banten
+            </p>
+            <a href="https://goo.gl/maps/RnLnW8pJwWico3WL6" target="_blank" class="btn btn-light my-4">Klik untuk membuka peta lokasi</a>
+            <p class="description">"Harap perhatikan jadwal dan lokasi berlangsungnya acara pernikahan.<br>Jika tidak ada janur, ada kemungkinan Anda salah jadwal atau salah tempat."</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">
+                Akad Nikah
+              </div>
+              <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>08.00 - 10.00</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar2-week d-block"></i>
+                  <span>Sabtu, 30 September 2023</span>
+                </div>
+              </div>
+              </div>
+              <div class="card-footer">
+                Dress Code: Putih
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">
+                Resepsi
+              </div>
+              <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>11.00 - 13.00</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar2-week d-block"></i>
+                  <span>Sabtu, 30 September 2023</span>
+                </div>
+              </div>
+              </div>
+              <div class="card-footer">
+                Dress Code: Abu-abu
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="journey">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Perjalanan Cinta Kami</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora sunt odit eligendi quos quasi.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/man-wedding.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>5 Februari 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quod ipsa voluptatum, omnis aperiam delectus.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-right">
+                <div class="timeline-image" style="background-image: url(img/woman-wedding.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Jadian</h3>
+                    <span>1 Maret 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur blanditiis aut exercitationem hic atque perferendis eveniet quam unde modi quas!</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/man-wedding.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Lamaran</h3>
+                    <span>1 Juni 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem neque dolorem atque libero at quasi culpa maiores iure?</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      simplyCountdown('.simply-countdown', {
+        year: 2023, // required
+            month: 9, // required
+            day: 30, // required
+            hours: 8, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            }
+      })
+
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'visible';
+      });
+
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'hidden';
+      });
+
+    </script>
+  </body>
+</html>
